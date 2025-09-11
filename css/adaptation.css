@@ -5,13 +5,17 @@
 }
 
 @media (max-width: 1440px){
+    .footer{
+        padding: 100px 100px;
+    }
+
     .footer-right{
         gap: 20px;
     }
 }
 
 @media (max-width: 1143px){
-    .footer-inner{
+    .footer{
         padding: 80px 45px;
     }
 }
@@ -55,13 +59,16 @@
     .info-one,
     .info-two{
         flex-direction: column;
-        justify-content: space-between;
         align-items: center;
+    }
+
+    .info-two {
+        gap: 20px;
     }
 }
 
 @media (max-width: 850px){
-    .footer-inner{
+    .footer{
         padding: 55px 0;
     }
 
@@ -144,11 +151,13 @@
 }
 
 @media (max-width: 600px){
-    .footer-inner{
+    .footer {
         padding: 30px 0px;
+    }
+
+    .footer-inner{
         gap: 20px;
         justify-content: center;
-
     }
 
     .footer-left{
